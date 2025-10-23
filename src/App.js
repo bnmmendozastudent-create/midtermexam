@@ -1,16 +1,15 @@
-<<<<<<< HEAD
 import React, { useState, useEffect } from "react";
 import "./App.css";
 
 function App() {
   const [message, setMessage] = useState("10 Things That Require Zero Talent");
 
- 
-  const fullName = "Brian Noel M. Mendoza";
+  // CHANGE THIS to your own name and section
+  const fullName = "BRIAN NOEL M. MENDOZA";
   const section = "IT3B";
   const subjectCode = "C-PCIT9";
 
-
+  // Key press handler
   useEffect(() => {
     const handleKeyPress = (event) => {
       switch (event.key) {
@@ -65,29 +64,7 @@ function App() {
     <div className="App">
       <h2>{fullName} - {section}</h2>
       <h1>{message}</h1>
-      <p>Press keys 1–0, N - Name, or S - SUBJECT CODE.</p>
-=======
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
->>>>>>> cc2bb30 (Initialize project using Create React App)
+      <p>Press keys 1–0, N - Name, or S - Subject Code .</p>
     </div>
   );
 }
