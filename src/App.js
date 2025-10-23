@@ -4,12 +4,12 @@ import "./App.css";
 function App() {
   const [message, setMessage] = useState("10 Things That Require Zero Talent");
 
-  // CHANGE THIS to your own name and section
+ 
   const fullName = "BRIAN NOEL M. MENDOZA";
   const section = "IT3B";
   const subjectCode = "C-PCIT9";
 
-  // Key press handler
+
   useEffect(() => {
     const handleKeyPress = (event) => {
       switch (event.key) {
